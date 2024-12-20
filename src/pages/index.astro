@@ -5,45 +5,45 @@ import ThreeDCard from '../components/ThreeDCard.astro';
 import 'animate.css';
 ---
 <BaseLayout>
-  <div class="h-full flex items-center justify-center bg-slate-900 overflow-auto lg:overflow-hidden">
+  <div class="h-full flex items-center justify-center overflow-auto lg:overflow-hidden">
+    <a href="https://github.com" target="_blank" class="absolute top-2 left-2 z-50">
+      <img src="/github-white-icon.svg" alt="GitHub" class="w-12 h-12">
+    </a>
     <div class="m-auto grid gap-2 grid-cols-2 auto-rows-[120px] sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 p-2 sm:p-4 max-w-screen-xl w-full">
       <ThreeDCard 
         URL="https://prod.spline.design/xhmQI7TSgMg6QUmB/scene.splinecode" 
         colSpan="col-span-2 sm:col-span-4 md:col-span-6 lg:col-span-8" 
         rowSpan="row-span-2" 
         animate="animate__animated animate__fadeInDown"
-        bgColor="yellow"
+        bgColor="bg-yellow"
       />
       <ThreeDCard
-        URL="https://prod.spline.design/xhmQI7TSgMg6QUmB/scene.splinecode"
+        URL="https://prod.spline.design/HazKhRxlpG0TXM71/scene.splinecode"
         colSpan="col-span-2 sm:col-span-4 md:col-span-6 lg:col-span-4" 
         rowSpan="row-span-1 lg:row-span-4" 
-
         animate="animate__animated animate__fadeInRight animate__delay-1s"
+        bgColor="bg-green"
       />
-      <PersonalCard 
-        title="Carta Rectangular" 
-        content="Una carta rectangular vertical." 
+      <ThreeDCard
+        URL="https://prod.spline.design/RaKuLoZARnMdzJhU/scene.splinecode" 
         colSpan="col-span-2 sm:col-span-4 md:col-span-6 lg:col-span-4" 
         rowSpan="row-span-2 lg:row-span-4" 
-        image="/img3.jpg"
         animate="animate__animated animate__fadeInLeft animate__delay-3s"
+        bgColor="bg-purple"
       />
-      <PersonalCard 
-        title="jjunlob074" 
-        content="check my github"
+      <ThreeDCard
+        URL="https://prod.spline.design/NUtHk2ICzhI1zxOz/scene.splinecode" 
         colSpan="col-span-2 sm:col-span-4 md:col-span-6 lg:col-span-4" 
         rowSpan="row-span-1 sm:row-span-2" 
-       
         animate="animate__animated animate__fadeIn animate__delay-4s"
+        bgColor="bg-black"
       />
-      <PersonalCard 
-        title="Carta Pequeña" 
-        content="Una carta más pequeña para contenido corto." 
+      <ThreeDCard
+        URL="https://prod.spline.design/4XBnFG-MxIEVKxLr/scene.splinecode"  
         colSpan="col-span-2 sm:col-span-4 md:col-span-6 lg:col-span-8" 
         rowSpan="row-span-1 sm:row-span-2" 
-        image="/img4.jpg" 
         animate="animate__animated animate__fadeInUp animate__delay-2s" 
+        bgColor="bg-red"
       />
     </div>
   </div>

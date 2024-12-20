@@ -5,6 +5,10 @@ export default {
 	  extend: {
 		colors: {
 		  'yellow': '#FFFF99', // Aquí defines un color amarillo claro
+		  'purple': '#9A6EBB',
+		  'green': '#34D399',
+		  'red': '#E40039',
+		  'black':'#172554'
 		},
 	  },
 	},
