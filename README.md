@@ -33,7 +33,7 @@ Disfruta del proyecto desplegado aquí:
 ## 🛠️ Cómo Ejecutar Localmente
 
 1. Clona el repositorio:  
-   ```bash
+```bash
    git clone https://github.com/jjunlob074/ASTROspline.git
    ```
 
