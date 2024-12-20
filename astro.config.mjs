@@ -7,7 +7,10 @@ import tailwind from '@astrojs/tailwind';
 
 import sitemap from '@astrojs/sitemap';
 
+import vercel from '@astrojs/vercel';
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), tailwind(), sitemap()]
+  integrations: [react(), tailwind(), sitemap()],
+  adapter: vercel()
 });
