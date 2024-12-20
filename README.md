@@ -27,7 +27,7 @@ Disfruta del proyecto desplegado aquí:
 │   └── styles/             # Archivos CSS, como animate.css
 ├── package.json            # Configuración del proyecto y dependencias
 └── README.md               # Este archivo
-
+   ```
 # 📸 Vista Previa
 
 ## 🛠️ Cómo Ejecutar Localmente
@@ -37,13 +37,13 @@ Disfruta del proyecto desplegado aquí:
    git clone https://github.com/jjunlob074/ASTROspline.git
    ```
 
-2.Accede al directorio del proyecto: 
-    ```bash
+2. Accede al directorio del proyecto: 
+```bash
    cd ASTROSpline
    ```
 
-3.Ejecuta el siguiente comando: 
-    ```bash
+3. Ejecuta el siguiente comando: 
+```bash
    npm install && npm run dev
    ```
 
