@@ -7,8 +7,7 @@ export interface CardProps {
     bgColor?:string;
   }
   const { URL, colSpan = 'col-span-6', rowSpan = 'row-span-1', animate, bgColor="white" } = Astro.props;
-  console.log(Astro.props)
 ---
-<div class={` shadow-md ${bgColor} rounded-3xl p-2 ${colSpan} ${rowSpan} ${animate} `}>
+<div class={` shadow-xl ${bgColor} rounded-3xl p-2 ${colSpan} ${rowSpan} ${animate} `}>
     <spline-viewer url={URL} class="threeD w-full h-full"></spline-viewer>
 </div>
